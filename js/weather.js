@@ -1,6 +1,7 @@
 // get current user location and weather by using Weather API
 // with displaying icon
 
+const API_KEY = "ccb747dd045dfc361cf44a344a7083ff";
 
 function onGeoSuccess(position){
     const lat = position.coords.latitude;
